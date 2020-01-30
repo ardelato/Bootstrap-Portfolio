@@ -11,3 +11,20 @@ Using Bootstrap recreate `Basic Portfolio` using the following items:
 - [ ] make a sticky footer
 - [ ] deploy on `GitHub Pages`
 * try to minimize the usage of media queries
+
+### `index.html`
+- [ ] Navbar
+  - [ ] Change the background color of the nav header 
+  - [ ] Change the font color of the nav header
+    * Need to change it via custom stylesheet
+- [ ] Main Content
+  - [ ] About Me header
+  - [ ] Content divider
+  - [ ] Photo on the left
+  - [ ] Photo on the right
+  - [ ] Main paragraphs
+    - [ ] in-line links
+- [ ] Footer
+  - [ ] Sticky footer
+    - [ ] Copyright text
+    - [ ] Copyright icon
