@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1" /> -->
-    <title>Bootstrap Portfolio</title>
+    <title>Portfolio</title>
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -14,20 +14,31 @@
   </head>
   <body>
     <div class="container">
-      <nav class="navbar navbar-default">
-        <div class="navbar-header"><h1>Angel de la Torre</h1></div>
+      <!-- Header Bar -->
+      <nav class="navbar navbar-default border-bottom mb-5">
+        <div class="navbar-header bg-info text-white p-2"><h1>Angel de la Torre</h1></div>
         <ul class="nav nav-pills justify-content-end">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">About </a>
+          <li class="nav-item border-right">
+            <a href="index.html" class="nav-link text-secondary">About </a>
+          </li>
+          <li class="nav-item border-right">
+            <a href="portfolio.html" class="nav-link text-secondary">Portfolio </a>
           </li>
           <li class="nav-item">
-            <a href="portfolio.html" class="nav-link">Portfolio </a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact </a>
+            <a href="contact.html" class="nav-link text-secondary">Contact </a>
           </li>
         </ul>
       </nav>
+
+      <div class="container border py-4 px-5 shadow">
+        <div class="row">
+          <h1 class="text-info">Portfolio</h1>
+        </div>
+        <hr/>
     </div>
+
+    <nav class="navbar fixed-bottom navbar-default bg-secondary text-white p-3">
+      <div class="navbar-header mx-auto"><p>Copyright &COPY;</p></div> 
+    </nav>
   </body>
 </html>
